@@ -10,39 +10,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <title>Responsive Portfolio Built Using Bootstrap</title>
     <link href="assets/css/stye.css" type="text/css" rel="stylesheet">
-    <style>
-        #yourname {
-            background-color: turquoise;
-            padding: 10px;
-            margin: 20px;
-        }
-        #navbar {
-            background: lightgray;
-        }
-        #links {
-            padding-block-start: 20px;
-        }
-    </style>
 </head>
 
 <body>
-    <!-- Created navigation bar with name to the left and 3 links to the right. -->
-    <nav class="container" id="navbar">    
-        <div class=row>
-            <Div class=col-md-4>
-                  <p class="text-center" id="yourname">Charles Dale Robinson III</p>
-            </Div>
-            <div class = col-md-8>
-                 <ul class="nav justify-content-end" id="links">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href ="index.html" class="navbar-brand">Charles Dale Robinson III</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                          <a class="nav-link" href="Contact.html">Contact</a>
+                        <a href ="contact.html" class="navlink px-3">Contact</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                        <a href ="Portfolio.html" class="navlink px-3">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                         <a class="nav-link" href="index.html">About</a>
-                  </ul>
+                        <a href ="index.html" class="navlink px-3">About</a>
+                    </li>
+                </ul>
             </div>
     </nav>
 
