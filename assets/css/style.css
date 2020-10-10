@@ -2,3 +2,31 @@
 .navlink {
     color: white;
 }
+
+#header-line {
+    background-color: red;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+section {
+    background-color:lightseagreen;
+    padding: 60px;
+
+}
+#tester {
+    background-color: lightyellow;
+    padding: 40px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+  
+}
+
+footer {
+    background-color: rgb(58, 57, 57);
+    padding: 10px;
+    color: white;
+}
