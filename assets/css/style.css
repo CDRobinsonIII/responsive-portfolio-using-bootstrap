@@ -3,28 +3,27 @@
     color: white;
 }
 
-#header-line {
-    background-color: red;
-    padding: 10px;
-    margin-top: 25px;
-}
-
+/* Styling for background section. */
 section {
     background-color:lightseagreen;
     padding: 60px;
 
 }
-#tester {
+
+/* Styling for About Me section. */
+#aboutme {
     background-color: lightyellow;
     padding: 40px;
 }
 
+/* Styling for about me image. */
 img {
     float: left;
     margin-right: 20px;
     width:50%;
 }
 
+/* Footer styling.  */
 footer {
     background-color: rgb(58, 57, 57);
     padding: 10px;
