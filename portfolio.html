@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Linked to bootstrap and local css style sheet - style.css in assests folder. -->
+    <!-- Do I need the IE meta? -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Responsive Portfolio Built Using Bootstrap</title>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation bar with navbar-brand to the left and 3 nav links to the right.  -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a href ="index.html" class="navbar-brand">Charles Dale Robinson III</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href ="contact.html" class="navlink px-3">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href ="Portfolio.html" class="navlink px-3">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href ="index.html" class="navlink px-3">About</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+    <!-- Main section with container. -->
+    <section class="container-fluid">
+        <div class ="container" >
+            <div class="row">
+                <div class="col-lg-8 col-md-10 col-sm-12" id="bgcontainer">
+                    <div>
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div>
+                        <img src="./assets/images/AWL_Facebook_Logo.jpg.jpg" id="portfolioshots">
+                    </div>
+                    <div>
+                        <img src="./assets/images/AWL_Facebook_Logo.jpg.jpg" id="portfolioshots">
+                    </div>
+                    <div>
+                        <img src="./assets/images/AWL_Facebook_Logo.jpg.jpg" id="portfolioshots">
+                    </div>
+                    <div>
+                        <img src="./assets/images/AWL_Facebook_Logo.jpg.jpg" id="portfolioshots">
+                    </div>
+                    <div>
+                        <img src="./assets/images/AWL_Facebook_Logo.jpg.jpg" id="portfolioshots">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+<!-- Footer. -->
+<footer>
+    <div>
+      <p class="text-center">Copy Right 2020 CDRIII</p>
+    </div>
+</footer>
+
+<!-- Embedded JavaScript script links to ensure bootstrap elements work properly. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

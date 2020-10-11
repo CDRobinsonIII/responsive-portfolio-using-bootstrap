@@ -11,16 +11,26 @@ section {
 }
 
 /* Styling for About Me section. */
-#aboutme {
+#bgcontainer {
     background-color: lightyellow;
-    padding: 40px;
-}
+s}
+
+
 
 /* Styling for about me image. */
-img {
+ #headshot {
     float: left;
     margin-right: 20px;
     width:50%;
+}
+
+#portfolioshots {
+    float: left;    
+    border-color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    width: 350px;
 }
 
 /* Footer styling.  */
