@@ -13,8 +13,7 @@ section {
 /* Styling for About Me section. */
 #bgcontainer {
     background-color: lightyellow;
-s}
-
+}
 
 
 /* Styling for about me image. */
@@ -24,7 +23,7 @@ s}
     width:50%;
 }
 
-#portfolioshots {
+.portfolioshots {
     float: left;    
     border-color: black;
     margin-left: 10px;
