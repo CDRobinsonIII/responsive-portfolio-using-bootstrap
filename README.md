@@ -20,5 +20,5 @@ This was accomplished by:
 While working on this project I learned about applying bootstrap classes to create a mobile responsive website. 
 
 
-## Link to Horiseon's accessible website:
+## Link to my responsive portfolio:
 https://cdrobinsoniii.github.io/responsive-portfolio-using-bootstrap/
