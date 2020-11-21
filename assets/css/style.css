@@ -14,7 +14,7 @@ section {
 #aboutMe {
     background-color: white;
     /* border-radius: 1rem; */
-    display: none;
+    display: block;
 }
 
 /* Styling for Contact Me section. */
@@ -25,12 +25,26 @@ section {
 
 /* Styling for Portofolio page. */
 #portfolioPage {
-    background-color: rgb(168, 168, 162);
-    border-radius: 1rem;
+    background-color: white;
+    display: none;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+#portfolioHighlights {
+    background-color: aliceblue;
+    display: none;
+    padding: 10px;
+}
+
+.projectScreenShotDetails {
+    width: 100%;
 }
 
 #connectWithMe {
     border-radius: 1rem;
+    display: block;
 }
 
 #emailLinkColor {
@@ -53,10 +67,10 @@ section {
 .portfolioshots {
     float: left;    
     border-color: black;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 10px;
     margin-bottom: 10px;    
-    width: 350px;
+    width: 100%;
 }
 
 /* Footer styling.  */
