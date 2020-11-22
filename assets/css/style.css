@@ -45,6 +45,7 @@ section {
 #connectWithMe {
     border-radius: 1rem;
     display: block;
+    margin-top: 50px;
 }
 
 #emailLinkColor {
@@ -67,7 +68,6 @@ section {
 .portfolioshots {
     float: left;    
     border-color: black;
-    /* margin-left: 10px; */
     margin-top: 10px;
     margin-bottom: 10px;    
     width: 100%;
@@ -76,6 +76,13 @@ section {
 /* Footer styling.  */
 footer {
     background-color: rgb(58, 57, 57);
-    padding: 10px;
+    padding: 15px;
     color: white;
+    text-align: center;
 }
+
+@media only screen and (max-width: 991px) {
+    #portfolioPage, .LI-profile-badge {
+     margin-top: 30px;
+    }
+  }
