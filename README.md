@@ -21,7 +21,7 @@ This was accomplished by:
 
 While working on this project I learned about applying bootstrap classes to create a mobile responsive portfolio website to showcase my coding bootcamp projects. 
 
-![Here is a screenshot of of my portfolio.](./assets/images/ScreenShot_Portfolio.jpg)
-
+![Here is a screenshot of of my portfolio.](./assets/images/ScreenShot_Portfolio_v2.jpg)
+_
 ## Link to my responsive portfolio:
 https://cdrobinsoniii.github.io/responsive-portfolio-using-bootstrap/
