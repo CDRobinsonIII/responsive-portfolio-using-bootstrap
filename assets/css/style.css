@@ -35,7 +35,7 @@ body {
 
 /* Styling for Portofolio page. */
 #portfolioPage {
-    background-color: white;
+    background-color:lightseagreen;
     display: none;
     text-align: center;
     padding-top: 10px;
@@ -43,7 +43,7 @@ body {
 }
 
 #portfolioHighlights {
-    background-color: aliceblue;
+    background-color: white;
     display: none;
     padding: 10px;
 }
