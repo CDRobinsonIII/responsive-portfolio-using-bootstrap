@@ -5,7 +5,6 @@ const portfolioDetails = [
         portfolioGitHubLinks: ["https://github.com/CDRobinsonIII/brewery-tour", "https://github.com/CDRobinsonIII/weather-dashboard","https://github.com/CDRobinsonIII/timed-quiz-utilizing-DOM-JS"],
         portfolioDeployedLinks: ["https://cdrobinsoniii.github.io/brewery-tour/","https://cdrobinsoniii.github.io/weather-dashboard/","https://cdrobinsoniii.github.io/timed-quiz-utilizing-DOM-JS/"]
 
-
     }
 ];
 
