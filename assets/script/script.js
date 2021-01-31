@@ -1,9 +1,9 @@
 const portfolioDetails = [
     {
-        portfolioScreenShot: ["./assets/images/the_brewway.jpg","./assets/images/weather_dashboard.jpg","./assets/images/quiz_challenge.jpg"],
-        portfolioTitle: ["The Brewway", "Weather Dashboard", "Quiz Challenge"],
-        portfolioGitHubLinks: ["https://github.com/CDRobinsonIII/brewery-tour", "https://github.com/CDRobinsonIII/weather-dashboard","https://github.com/CDRobinsonIII/timed-quiz-utilizing-DOM-JS"],
-        portfolioDeployedLinks: ["https://cdrobinsoniii.github.io/brewery-tour/","https://cdrobinsoniii.github.io/weather-dashboard/","https://cdrobinsoniii.github.io/timed-quiz-utilizing-DOM-JS/"]
+        portfolioScreenShot: ["./assets/images/the_brewway.jpg","./assets/images/weather_dashboard.jpg","./assets/images/burgerapp.jpg","./assets/images/studentportal.jpg"],
+        portfolioTitle: ["The Brewway", "Weather Dashboard", "Burger App", "Student Database Portal"],
+        portfolioGitHubLinks: ["https://github.com/CDRobinsonIII/brewery-tour", "https://github.com/CDRobinsonIII/weather-dashboard","https://github.com/CDRobinsonIII/burger-app","https://github.com/CDRobinsonIII/student-database-portal"],
+        portfolioDeployedLinks: ["https://cdrobinsoniii.github.io/brewery-tour/","https://cdrobinsoniii.github.io/weather-dashboard/","https://hamburger-application.herokuapp.com/","https://student-registration-tracker.herokuapp.com/"]
 
     }
 ];
