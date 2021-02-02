@@ -6,7 +6,7 @@
 /* Styling for background section. */
 section {
     background-color:lightseagreen;
-    padding: 60px;
+    padding: 80px;
 
 }
 
@@ -17,7 +17,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 
@@ -92,7 +92,7 @@ footer {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 90px;
+    height: 80px;
     line-height: 80px; /* Vertically center the text there */
 }
 
